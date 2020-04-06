@@ -1,0 +1,11 @@
+@import "src/blue-theme";
+
+.shared-shop-button {
+  margin: 0;
+  padding: 1em 0.5em;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: $shop-background-color;
+  color: $shop-font-color;
+  cursor: pointer;
+}

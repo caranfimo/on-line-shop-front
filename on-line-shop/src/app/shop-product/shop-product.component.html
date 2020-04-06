@@ -1,0 +1,25 @@
+<mat-card class="col-xs-12">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Shiba Inu</mat-card-title>
+    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+  </mat-card-header>
+  <app-shop-product-img imageUrl="https://material.angular.io/assets/img/examples/shiba2.jpg"></app-shop-product-img>
+  <mat-card-content>
+    <div class="row">
+      <div class="col-xs-6">
+        <app-shop-summary-item [title]="'categoria'" [description]="'Juegos'"></app-shop-summary-item>
+        <app-shop-summary-item [title]="'nombre'" [description]="'Call of dutty'"></app-shop-summary-item>
+        <app-shop-link [link]="'#'" description="VER DETALLES"></app-shop-link>
+      </div>
+      <div class="col-xs-6">
+        <div class="shop-align-right">
+          <span class="top-xs shop-currency">{{5600 | currency}}</span>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <app-shop-button [description]="'Comprar'"></app-shop-button>
+  </mat-card-actions>
+</mat-card>

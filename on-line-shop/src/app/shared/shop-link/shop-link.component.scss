@@ -1,0 +1,9 @@
+@import "src/blue-theme";
+
+a.shop-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: $shop-background-color;
+  font-size: 1em;
+  padding-top: 2em;
+}

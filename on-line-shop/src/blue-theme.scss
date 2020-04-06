@@ -1,0 +1,7 @@
+$shop-background-color: #2874A6;
+$shop-font-color: #fff;
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  background-color: $shop-background-color;
+  color: $shop-font-color;
+}
